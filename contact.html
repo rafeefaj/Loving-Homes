@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="تواصل مع Loving Homes واحجز الخدمة المناسبة لكلبك." />
+  <title>Loving Homes | تواصل معنا</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main class="inner-page">
+    <section class="page-hero">
+      <div class="container">
+        <h1>تواصل معنا</h1>
+        <p>
+          يمكنك تعبئة النموذج التالي لطلب حجز أو للاستفسار عن الخدمات والباقات المتاحة.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-space">
+      <div class="container">
+
+        <div class="contact-info-grid">
+          <div class="info-box">
+            <h2>الهاتف</h2>
+            <p>+852 2345 6789</p>
+          </div>
+
+          <div class="info-box">
+            <h2>البريد الإلكتروني</h2>
+            <p>info@lovinghomes.com</p>
+          </div>
+
+          <div class="info-box">
+            <h2>الموقع</h2>
+            <p>هونغ كونغ</p>
+          </div>
+
+          <div class="info-box">
+            <h2>أوقات العمل</h2>
+            <p>من الاثنين إلى السبت، 9:00 صباحًا - 6:00 مساءً</p>
+          </div>
+        </div>
+
+        <form class="contact-form booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">الاسم الكامل</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">رقم الهاتف</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+
+            <div class="form-group">
+              <label for="contactMethod">طريقة التواصل المفضلة</label>
+              <select id="contactMethod" name="contactMethod" required>
+                <option value="">اختر الطريقة</option>
+                <option value="phone">هاتف</option>
+                <option value="email">بريد إلكتروني</option>
+                <option value="whatsapp">واتساب</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="dogName">اسم الكلب</label>
+              <input type="text" id="dogName" name="dogName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="breed">السلالة / النوع</label>
+              <input type="text" id="breed" name="breed" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="age">عمر الكلب</label>
+              <input type="number" id="age" name="age" min="0" required />
+            </div>
+
+            <div class="form-group">
+              <label for="size">حجم الكلب</label>
+              <select id="size" name="size" required>
+                <option value="">اختر الحجم</option>
+                <option value="small">صغير</option>
+                <option value="medium">متوسط</option>
+                <option value="large">كبير</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">الخدمة المطلوبة</label>
+              <select id="service" name="service" required>
+                <option value="">اختر الخدمة</option>
+                <option value="stay">إقامة</option>
+                <option value="daycare">رعاية يومية</option>
+                <option value="grooming">تنظيف وعناية</option>
+                <option value="activities">أنشطة ومشي</option>
+                <option value="custom">خدمة مخصصة</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="package">الباقة المطلوبة</label>
+              <select id="package" name="package" required>
+                <option value="">اختر الباقة</option>
+                <option value="premium">الباقة المميزة</option>
+                <option value="classic">الباقة الكلاسيكية</option>
+                <option value="day">الباقة اليومية</option>
+                <option value="custom">باقة مخصصة</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">تاريخ الوصول</label>
+              <input type="date" id="checkin" name="checkin" required />
+            </div>
+
+            <div class="form-group">
+              <label for="checkout">تاريخ المغادرة</label>
+              <input type="date" id="checkout" name="checkout" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="arrivalTime">وقت الوصول</label>
+              <input type="time" id="arrivalTime" name="arrivalTime" required />
+            </div>
+
+            <div class="form-group">
+              <label for="pickupTime">وقت الاستلام</label>
+              <input type="time" id="pickupTime" name="pickupTime" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="grooming">هل تريد خدمة تنظيف وعناية؟</label>
+              <input type="text" id="grooming" name="grooming" required />
+            </div>
+
+            <div class="form-group">
+              <label for="medical">هل توجد ملاحظات صحية أو احتياجات خاصة؟</label>
+              <textarea id="medical" name="medical" rows="1" required></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">ملاحظات إضافية</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-main form-btn">إرسال الطلب</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="components.js"></script>
+</body>
+</html>
