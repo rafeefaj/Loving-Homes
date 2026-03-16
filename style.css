@@ -219,6 +219,7 @@ ul {
   transition: 0.3s;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: 0.3s;
+  text-align:center;
 }
 
 .card:hover {
@@ -268,6 +269,12 @@ ul {
 
 .card-buttons a {
   flex: 1;
+}
+
+.package-book-btn{
+display:inline-block;
+margin:15px auto 0 auto;
+text-align:center;
 }
 
 .inner-page {
