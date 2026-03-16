@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     widget.innerHTML = `
       <button id="accessibility-toggle" aria-label="إمكانية الوصول">
-        <img src="assets/images/accessibility-icon.png" alt="إمكانية الوصول" style="border-radius:50%;">
+        <img src="assets/Images/accessibility-icon.png" alt="إمكانية الوصول" style="border-radius:50%;">
       </button>
 
       <div id="accessibility-panel" class="hidden">
