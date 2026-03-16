@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="container nav-wrapper">
         <div class="nav-right">
           <a href="index.html" class="logo">
-            <img src="assets/Images/logo.png" alt="Loving Homes Logo">
+            <img src="assets/images/logo.png" alt="Loving Homes Logo">
             Loving Homes
           </a>
         </div>
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     widget.innerHTML = `
       <button id="accessibility-toggle" aria-label="إمكانية الوصول">
-        <img src="assets/Images/accessibility-icon.png" alt="إمكانية الوصول" style="border-radius:50%;">
+        <img src="assets/images/accessibility-icon.png" alt="إمكانية الوصول" style="border-radius:50%;">
       </button>
 
       <div id="accessibility-panel" class="hidden">
