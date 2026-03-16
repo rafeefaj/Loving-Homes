@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="container nav-wrapper">
         <div class="nav-right">
           <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="Loving Homes Logo">
+            <img src="assets/Images/logo.png" alt="Loving Homes Logo">
             Loving Homes
           </a>
         </div>
